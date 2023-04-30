@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'source-sans-pro';
+  src: url(../src/assets/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'source-sans-pro';
+  src: url(../src/assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(../src/assets/fonts/Poppins/Poppins-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(../src/assets/fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'patua';
+  src: url(../src/assets/fonts/Patua_One/PatuaOne-Regular.ttf);
+}
