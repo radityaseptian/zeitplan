@@ -1,11 +1,12 @@
 import HeroButton from './HeroButton'
 import heroImage from '../../assets/image/hero-image.png'
 import CardReview from '../CardReview'
+import patrik from '../../assets/image/profil/patrik.png'
 
 export default function Hero() {
   return (
     <>
-      <div className='container mx-auto mt-8 lg:mt-10 max-w-6xl'>
+      <div className='container mx-auto max-w-6xl'>
         <div className='px-4 md:px-2 md:flex'>
           <div className='md:w-5/12 md:pr-2'>
             <div className='pr-8 md:pr-0'>
@@ -25,6 +26,7 @@ export default function Hero() {
               status={'Dosen di bikini bottom'}
               slider={true}
               shadow='shadow-[#fe5d442a]'
+              image={patrik}
             >
               Aplikasi sialan,ini gw jadi kagak bisa alesan lagi buat bolos
               kelas Pak Sanusi yang galak itu! Tapi aku sekarang jadi rajin
@@ -32,10 +34,7 @@ export default function Hero() {
             </CardReview>
           </div>
           <div className='grid place-content-center overflow-hidden md:w-7/12 p-2 md:p-0 mt-4 md:mt-0'>
-            <img
-              src={heroImage}
-              className=' sm:px-0 lg:p-5'
-            />
+            <img src={heroImage} className=' sm:px-0 lg:p-5' />
           </div>
         </div>
       </div>

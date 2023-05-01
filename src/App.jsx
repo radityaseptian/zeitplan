@@ -13,7 +13,7 @@ function App() {
       <div>
         <Header />
         <Promosi />
-        <Fitur/>
+        <Fitur />
         <Harga />
         <Ulasan />
         <Footer />

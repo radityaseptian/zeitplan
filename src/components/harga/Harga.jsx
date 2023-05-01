@@ -5,7 +5,7 @@ export default function Harga() {
   return (
     <>
       <div className='bg-[#fe5d4413] bg-gradient-to-t from-[#ffffff69]'>
-        <div className='container mx-auto max-w-6xl px-2 lg:px-0'>
+        <div id='harga' className='container mx-auto max-w-6xl px-2 lg:px-0'>
           <div className='text-center py-12 md:py-16 lg:py-20'>
             <center className='w-[80%] sm:w-1/2 lg:w-[38%] mx-auto'>
               <h2 className='font-patua text-[#0E144A] leading-7 text-xl md:text-2xl lg:text-3xl lg:leading-10'>

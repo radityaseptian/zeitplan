@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: 'source-sans-pro';
   src: url(../src/assets/fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);

@@ -46,11 +46,19 @@ export default function Footer() {
             </div>
             <div className='mt-3 md:mt-0 lg:pl-20'>
               <span className='py-2 lg:py-4 font-patua'>Tetap Terhubung</span>
-              <p className='text-[#0e144a9f] text-sm lg:text-base leading-6 py-3'>Lihat kami pansos di sosial media berikut:</p>
+              <p className='text-[#0e144a9f] text-sm lg:text-base leading-6 py-3'>
+                Lihat kami pansos di sosial media berikut:
+              </p>
               <div className='flex gap-2 lg:gap-3'>
-                <img src={instagram} />
-                <img src={facebook} />
-                <img src={twitter} />
+                <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
+                  <img src={instagram} />
+                </a>
+                <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
+                  <img src={facebook} />
+                </a>
+                <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
+                  <img src={twitter} />
+                </a>
               </div>
             </div>
           </div>

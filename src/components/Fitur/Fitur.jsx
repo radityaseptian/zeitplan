@@ -9,7 +9,7 @@ import CardFitur from './CardFitur'
 export default function Fitur() {
   return (
     <>
-      <div className='container mx-auto max-w-6xl'>
+      <div id='fitur' className='container mx-auto max-w-6xl'>
         <div className='px-4 md:px-2 md:flex'>
           <div className='md:w-1/2'>
             <img src={fitur} className='min-w-full md:pr-4 lg:pr-10' />
