@@ -8,7 +8,7 @@ import NavSlider from './NavSlider'
 
 export default function Navbar() {
   const [slider, setSlider] = useState(false)
-  const [active, setActive] = useState('')
+  const [active, setActive] = useState('#home')
   const actived = (href) => {
     setActive(href)
   }
