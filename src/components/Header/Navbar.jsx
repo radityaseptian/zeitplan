@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <>
       <div className='z-10 fixed top-0 md:top-4 w-full'>
-        <div className='container mx-auto lg:px-2 max-w-6xl shadow-2xl shadow-[#0000000c] bg-white'>
+        <div className='container mx-auto lg:px-2 max-w-6xl shadow-2xl shadow-[#0000000c] bg-white/80 backdrop-blur-md'>
           <nav>
             <div className='flex items-center justify-between h-16 lg:h-[5.2rem] px-5 lg:px-10 lg:rounded-b-md'>
               <div
